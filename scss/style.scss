@@ -1,0 +1,18 @@
+$primary: #2d6a4f;
+$secondary: #52b788;
+$success: #40916c;
+$light: #d8f3dc;
+$dark: #081c15;
+
+// 👇 Importa Bootstrap desde node_modules
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+// Personalización adicional
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+.bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+}
